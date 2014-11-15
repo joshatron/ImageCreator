@@ -6,6 +6,7 @@
 
 package imageops;
 
+import imageops.ImageTask;
 import java.util.concurrent.BlockingQueue;
 import javafx.concurrent.Task;
 

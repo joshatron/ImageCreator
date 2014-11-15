@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package imageops;
 
 import java.net.MalformedURLException;
@@ -10,6 +11,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.PriorityBlockingQueue;
 import javafx.application.Application;
+import static javafx.application.Application.launch;
 import javafx.scene.Scene;
 import javafx.scene.image.WritableImage;
 import javafx.stage.Stage;
@@ -63,3 +65,4 @@ public class WriteImage extends Application {
         launch(args);
     }
 }
+
